@@ -1,0 +1,11 @@
+<mvc:View controllerName="com.sap.kt.nave.navexample.controller.View3"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}" showNavButton="true" navButtonPress="onNavButton">
+        <content >
+        <IllustratedMessage 
+        title="Not Found"
+        description="PAGE NOT FOUND"/>
+        </content>
+    </Page>
+</mvc:View>
